@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.note_app">
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 <application
     android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
+    android:icon="@mipmap/icon_launcher"
     android:label="Заметки"
-    android:roundIcon="@mipmap/ic_launcher_round"
+    android:roundIcon="@mipmap/icon_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/Theme.Note_app"
     android:usesCleartextTraffic="true">
@@ -24,7 +26,7 @@
     <activity
         android:name=".NoteEditorActivity"
         android:exported="true"
-        android:label="Заметки" >
+        android:label="Редактирование" >
     </activity>
 </application>
 
