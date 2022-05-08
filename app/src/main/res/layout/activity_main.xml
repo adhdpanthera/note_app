@@ -7,27 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--Adding a ListView -->
     <ListView
         android:id="@+id/listView"
         android:layout_width="409dp"
-        android:layout_height="601dp"
-        android:layout_marginTop="80dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!--Adding a TextView -->
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:gravity="center_horizontal"
-        android:text="Мои заметки"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/listView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
